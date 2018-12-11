@@ -16,7 +16,7 @@ textarea:focus, input:focus{
    outline: none;
 }
 .container-1 div{
-  padding: 20px;
+  padding: 10px;
 }
 .container-1 {
   display: flex;
@@ -59,12 +59,15 @@ textarea:focus, input:focus{
 
 #castle {
   width: 130px;
-  padding-bottom: 40px;
+  padding-bottom: 65px;
 }
+
+
 
 #loginbut {
 cursor: pointer;
-box-shadow: 5px 5px;
+box-shadow: 2px 2px;
+transition: box-shadow 0.2s;
 }
 
 #loginbut:active {
